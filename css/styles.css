@@ -43,7 +43,11 @@ body {
 .section-text {
   color: var(--primary-text-color);
 }
-.button {
+.button .link {
+  color: var(--title-text-color);
+}
+.button .link:hover,
+.button .link:focus {
   background-color: var(--ptimary-blue-color);
   color: var(--accent-color);
 }
