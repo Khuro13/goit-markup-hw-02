@@ -54,3 +54,7 @@ body {
   background-color: var(--ptimary-blue-color);
   color: var(--accent-color);
 }
+.text-h {
+  background-color: var(--ptimary-blue-color);
+  color: var(--accent-color);
+}
