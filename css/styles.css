@@ -29,6 +29,9 @@ body {
 .logo {
   font-family: Raleway, cursive;
   color: var(--title-text-color);
+  font-size: 26px;
+  line-height: 1, 19px;
+  letter-spacing: 0.03em;
 }
 .logo:hover {
   color: var(--ptimary-blue-color);
