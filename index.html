@@ -3,124 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>document</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>document</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html" class="logo">
-          <span class="logo-accent">Web</span>Studio</a
-        >
+        <a class="logo" href=""><span class="logo-accent">Web</span>Studio </a>
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-        <ul class="contacts-nav list">
-          <li>
-            <a href="" class="link">
-              <img src="./images/envelope(hover).svg" alt="" />
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="" class="link">
-              <img src="./images/Vector.svg" alt="" />
-              +38 096 111 11 11
-            </a>
-          </li>
+          <li><a class="link" href="">Студия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
+      <address class="contacts-nav">
+        <a class="link" href="mailto:info@devstudio.com">
+          <!-- <img src="./images/envelope(hover).svg" alt="" /> -->
+          info@devstudio.com
+        </a>
+        <a class="link" href="tel:+380961111111">
+          <!-- <img src="./images/Vector.svg" alt="" /> -->
+          +38 096 111 11 11
+        </a>
+      </address>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero-section section">
         <h1 class="hero-title">
           эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <a href="">заказать услугу</a>
+        <a class="link" href="">Заказать услугу</a>
       </section>
-      <section class="section">
-        <h2 class="hiden">скрытый заголовок</h2>
+      <section>
+        <!-- <h2>скрытый заголовок</h2> -->
         <ul>
           <li>
-            <a href="">
-              <img src="./images/antenna1.svg" alt="" />
-            </a>
+            <!-- <a href=""><img src="./images/antenna1.svg" alt="" /></a> -->
             <h3 class="section-title-features">внимание к деталям</h3>
-            <p class="text">
-              идейные соображения, а также начало повседневной работы по
+            <p class="section-text">
+              Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <a href="">
+            <!-- <a href="">
               <img src="./images/clock1.svg" alt="" />
-            </a>
+            </a> -->
             <h3 class="section-title-features">пунктуальность</h3>
-            <p class="text">
-              задача организации, в особенности же рамки и место обучения кадров
+            <p class="section-text">
+              Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <a href="">
+            <!-- <a href="">
               <img src="./images/diagram1.svg" alt="" />
-            </a>
+            </a> -->
             <h3 class="section-title-features">планирование</h3>
-            <p class="text">
-              равным образом консультация с широким активом в значительной
+            <p class="section-text">
+              Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <a href="">
+            <!-- <a href="">
               <img src="./images/astronaut1.svg" alt="" />
-            </a>
+            </a> -->
             <h3 class="section-title-features">современные технологии</h3>
-            <p class="text">
-              значимость этих проблем настолько очевидна, что реализация
+            <p class="section-text">
+              Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
       </section>
-      <section class="section">
-        <h2 class="section-title">чем мы занимаемся</h2>
+      <section>
+        <h2 class="section-title-work">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href="">
               <img src="./images/img.jpg" alt="" />
-              <h3 class="section-title-work">десктопные приложения</h3>
+              <!-- <h3 class="section-desc-work">десктопные приложения</h3> -->
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/box.jpg" alt="" />
-              <h3 class="section-title-work">мобильные приложения</h3>
+              <!-- <h3 class="section-desc-work">мобильные приложения</h3> -->
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/img2.jpg" alt="" />
-              <h3 class="section-title-work">дизайнерские решения</h3>
+              <!-- <h3 class="section-desc-work">дизайнерские решения</h3> -->
             </a>
           </li>
         </ul>
       </section>
-      <section class="section">
-        <h2 class="section-title">наша команда</h2>
+      <section>
+        <h2 class="section-title-team">Наша команда</h2>
         <ul>
           <li>
             <a href="">
               <img src="./images/img11.jpg" alt="" />
-              <h3 class="section-title-team">Николай Кучеренко</h3>
-              <p class="text">Product Designer</p>
+              <div>
+                <h3 class="section-team-name">Николай Кучеренко</h3>
+                <p class="text">Product Designer</p>
+              </div>
             </a>
             <ul>
               <li>
@@ -140,8 +138,10 @@
           <li>
             <a href="">
               <img src="./images/img22.png" alt="" />
-              <h3 class="section-title-team">Ольга Иванова</h3>
-              <p class="text">Frontend Developer</p>
+              <div>
+                <h3 class="section-team-name">Ольга Иванова</h3>
+                <p class="text">Frontend Developer</p>
+              </div>
             </a>
             <ul>
               <li>
@@ -161,8 +161,10 @@
           <li>
             <a href="">
               <img src="./images/img33.png" alt="" />
-              <h3 class="section-title-team">Андрей Шевченко</h3>
-              <p class="text">Marketing</p>
+              <div>
+                <h3 class="section-team-name">Андрей Шевченко</h3>
+                <p class="text">Marketing</p>
+              </div>
             </a>
             <ul>
               <li>
@@ -182,8 +184,10 @@
           <li>
             <a href="">
               <img src="./images/img44.png" alt="" />
-              <h3 class="section-title-team">Иван Николаев</h3>
-              <p class="text">UI Designer</p>
+              <div>
+                <h3 class="section-team-name">Иван Николаев</h3>
+                <p class="text">UI Designer</p>
+              </div>
             </a>
             <ul>
               <li>
@@ -202,8 +206,8 @@
           </li>
         </ul>
       </section>
-      <section class="section">
-        <h2 class="section-title">постоянные клиенты</h2>
+      <section>
+        <h2>Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="">
